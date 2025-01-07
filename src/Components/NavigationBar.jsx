@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import logo from '../assets/hasta_logo.png'
+import logo from '../assets/logo.png'
 
 const NavigationBar = () => {
 
@@ -17,14 +17,14 @@ const NavigationBar = () => {
 
 
   return (
-    <Navbar expand="lg" sticky="top" expanded={expanded} style={{ background: 'white' }}>
+    <Navbar expand="lg" sticky="top" className="navbar" expanded={expanded} style={{ background: 'white' }}>
       <Container>
         {/* Left-Side Logo */}
         <Navbar.Brand as={Link} to="/">
           <img
             src={logo}
             alt="Logo"
-            style={{ height: "50px" }}
+            style={{ height: "60px" }}
           />
         </Navbar.Brand>
 
