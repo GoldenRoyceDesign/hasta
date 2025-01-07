@@ -27,15 +27,15 @@ const Home = () => {
                 <div className='container'>
                     <h1>Meet Our Leadership Team</h1>
                     <div className='row mt-5'>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mb-4'>
                             <h4>\[CEO’s Name\]</h4>
                             <p className='mt-3'>Chief Executive Officer</p>
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mb-4'>
                             <h4>\[CTO’s Name\]</h4>
                             <p className='mt-3'>Chief Technology Officer</p>
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mb-4'>
                             <h4>\[CMO’s  Name\]</h4>
                             <p className='mt-3'>Chief Marketing Officer</p>
                         </div>
@@ -48,21 +48,21 @@ const Home = () => {
                     <h1>Success Stories That Speak for
                         Themselves</h1>
                     <div className='row mt-5'>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mb-4'>
                             <div className='client-box p-3'>
                                 <h4>Client 1</h4>
                                 <p className='mt-3'>\[Brief Description of Business &
                                     Outcome\]</p>
                             </div>
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mb-4'>
                             <div className='client-box p-3'>
                                 <h4>Client 2</h4>
                                 <p className='mt-3'>\[Brief Description of Business &
                                     Outcome\]</p>
                             </div>
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mb-4'>
                             <div className='client-box p-3'>
                                 <h4>Client 3</h4>
                                 <p className='mt-3'>\[Brief Description of Business &
