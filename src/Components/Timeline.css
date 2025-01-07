@@ -1,0 +1,77 @@
+.timeline-container {
+    position: relative;
+    width: 80%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .timeline {
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%; /* Ensures the vertical line is centered */
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    transform: translateX(-50%);
+    z-index: 0; /* Line goes behind other elements */
+  }
+  
+  .timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .timeline-item .content {
+    width: 45%;
+    background-color: transparent;
+  }
+  
+  .timeline-item .circle-container {
+    flex-shrink: 0;
+    z-index: 1; /* Circles are in front of the line */
+  }
+  
+  .timeline-item .circle {
+    width: 50px;
+    height: 50px;
+    background-color: #740B0B; /* Red circles */
+    color: white;
+    border-radius: 10%; /* Box-like corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #FD1414;
+    position: absolute;
+    left: 50%; /* Align circle vertically with the line */
+    transform: translateX(-50%);
+    margin-top: -50px;
+  }
+
+  
+  
+  
+  .timeline-item .content-box {
+    width: 45%;
+    background-color: white;
+    color: #800000; /* Red text */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Content is in front of the line */
+    position: relative;
+  }
+  
+
+
+  

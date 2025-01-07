@@ -1,0 +1,196 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 80px;
+  text-align: left;
+  padding: 50px;
+  width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.home h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.home button {
+  width: fit-content;
+  padding: .5rem 2.5rem;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(255, 110, 110, 0.9);
+  background: #D14040;
+  color: white;
+}
+
+.leader {
+  width: 100%;
+  overflow-x: hidden;
+  min-height: 70vh;
+  background: #C90202;
+  color: white;
+}
+
+.leader h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.client {
+  min-height: 70vh;
+}
+
+.client h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.client .client-box {
+  background: #8B0202;
+  border-radius: 10px;
+  color: white;
+}
+
+.industry {
+  width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.industry h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+
+.partner {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.partner h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.partner h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.service {
+  width: 100%;
+  overflow-x: hidden;
+  color: white;
+}
+
+.service h1 {
+  color: black;
+}
+
+/* .service .row {
+  background: black;
+} */
+
+.service .serv-col {
+  background: #800000;
+  border: 2px solid #D14040;
+}
+
+
+.servicecom3 {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.service-list-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-list-container h1 {
+  font-weight: 700;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.service-item .arrow-box {
+  position: relative;
+  background-color: #800000;
+  /* Dark red color */
+  color: white;
+  font-weight: bold;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(-100% 10%, 100% 10%, 100% 90%, 50% 100%, 0% 90%, 0% 10%);
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.service-item .content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.service-item .content h4 {
+  font-weight: bold;
+}
+
+.service-item .content p {
+  margin: 0;
+}
+
+
+.servicecom1 {
+  background-image: url('../src/assets/serviceCom1.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+
+.service-one h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.service-two h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+}
+
+.digitalmarketing h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.webapp h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+
+.corporate {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.corporate h1 {
+  font-weight: 700;
+}

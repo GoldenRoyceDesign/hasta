@@ -1,0 +1,88 @@
+@media screen and (max-width: 767px){
+    .home{
+        padding: 40px;
+    }
+
+    .home h1{
+        font-size: 40px;
+    }
+
+    .partner h1{
+        font-size: 40px;
+    }
+
+    .service h1{
+        font-size: 40px;
+    }
+
+    .service-one h1{
+        font-size: 40px;
+    }
+    
+    .digitalmarketing h1{
+        font-size: 40px;
+    }
+
+    .webapp h1{
+        font-size: 40px;
+    }
+
+    .webapp h4{
+        min-height: 0 !important;
+    }
+
+    .industry h1{
+        font-size: 40px;
+    }
+
+    .corporate .event{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leader h1{
+        font-size: 40px;
+    }
+
+    .client h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .home h1{
+        font-size: 35px;
+    }
+
+    .partner h1{
+        font-size: 35px;
+    }
+    
+    .service h1{
+        font-size: 35px;
+    }
+
+    .service-one h1{
+        font-size: 35px;
+    }
+
+    .digitalmarketing h1{
+        font-size: 35px;
+    }
+
+    .webapp h1{
+        font-size: 35px;
+    }
+
+    .industry h1{
+        font-size: 35px;
+    }
+
+    .leader h1{
+        font-size: 35px;
+    }
+
+    .client h1{
+        font-size: 35px;
+    }
+}
