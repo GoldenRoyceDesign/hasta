@@ -10,7 +10,7 @@ const Home = () => {
         <>
             <div className='home'>
                 <div className='row'>
-                    <div className='col-md-6 d-flex flex-column gap-4'>
+                    <div className='col-md-6 d-flex flex-column gap-4 mb-2'>
                         <h1>Transform Your Business with 360
                             Digital Solutions</h1>
                         <p>Empowering brands through innovative digital marketing, web & app development, and data analytics</p>
