@@ -23,7 +23,7 @@ const Home = () => {
 
             </div>
 
-            <div className='leader pt-5'>
+            {/* <div className='leader pt-5'>
                 <div className='container'>
                     <h1>Meet Our Leadership Team</h1>
                     <div className='row mt-5'>
@@ -71,9 +71,9 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
-            <div className='industry mt-4'>
+            <div className='industry mt-3'>
                 <div className='row'>
                     <div className='col-md-8 p-5'>
                         <h1>Stay Ahead with
